@@ -37,8 +37,8 @@ Any new commands must be comitted to HotBot/commands/ and follow the instruction
 
 ### Contributors
 
-Shout Out to [Raylu](https://github.com/raylu) for coming up with the idea for !headpat feature.
-check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the repository where !headpat was born
+Shout Out to [Raylu](https://github.com/raylu) for coming up with the idea for !headpat feature,an eyecandy for all anime lovers.
+Check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the repository where idea of !headpat was born.
 
 # Cheers!
 
