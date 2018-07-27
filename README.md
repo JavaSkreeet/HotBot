@@ -35,6 +35,11 @@ All contributions are welcome as long as you love tabs over spaces.
 Use the template.js present in HotBot/commands/ as the strating point for adding new commands.
 Any new commands must be comitted to HotBot/commands/ and follow the instructions commented in template.js
 
+### Contributors
+
+Shout Out to [Raylu](https://github.com/raylu) for coming up with the idea for !headpat feature.
+check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the repository where !headpat was born
+
 # Cheers!
 
 
