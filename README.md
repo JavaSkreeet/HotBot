@@ -26,11 +26,13 @@ The following packages are required for smooth function of the bot:
 $ npm update
 $ node index.js
 ```
-The Bot is modified to run on Heroku. In order to run it on your local machine replace:
-```
-process.env.BOT_TOKEN
-```
-in line 14 of index.js with your unique Discord Bot token.
+In order to run the bot add your Personalized Bot Token to botconfig.json
+
+### Contribution
+
+All contributions are welcome as long as you love tabs over spaces.
+Add new commands to /commands/
+Use the template.js as the strating point for adding new commands
 
 # Cheers!
 
