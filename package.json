@@ -1,6 +1,6 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
+  "name": "HotBot",
+  "version": "1.0.3",
   "description": "A Discord Bot",
   "main": "index.js",
   "scripts": {
