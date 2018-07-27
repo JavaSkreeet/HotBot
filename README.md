@@ -19,7 +19,6 @@ The following packages are required for smooth function of the bot:
 !tempmute @memeber <time>
 !kick @member
 !ban @member
-
 ```
 
 ### Running The Bot
