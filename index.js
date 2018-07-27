@@ -4,7 +4,7 @@ const fs = require("fs");
 
 const bot = new Discord.Client();
 bot.commands = new Discord.Collection();
-bot.login(process.env.BOT_TOKEN);
+bot.login(botconfig.token);
 
 fs.readdir("./commands/",(err,file)=>{
     if(err) console.log(err);
