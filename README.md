@@ -5,6 +5,7 @@ A Discord Bot for Servers filled with Programming Enthusiasts and Nerds with a l
 The following packages are required for smooth function of the bot:
 * [Discord.js](https://discord.js.org/#/) - Discord Library for JavaScript
 * [random-puppy](https://www.npmjs.com/package/random-puppy) - Library to fetch random URl of images from Reddit
+* [ms](https://www.npmjs.com/package/ms) - Library to mange time for temporary muting
 * [ytdl-core](https://www.npmjs.com/package/ytdl-core) - Library to load YT music in audio channel
 * [opusscript](https://www.npmjs.com/package/opusscript) - Library to load YT music in audio channel
 
