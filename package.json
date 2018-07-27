@@ -13,7 +13,6 @@
     "ms": "^2.1.1",
     "opusscript": "0.0.6",
     "random-puppy": "^1.1.0",
-    "ytdl-core": "^0.21.1",
-    "ytdl-getinfo": "^1.1.0"
+    "ytdl-core": "^0.21.1"
   }
 }
