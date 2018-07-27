@@ -1,5 +1,5 @@
 # HotBot
-A Discord Bot for Servers filled with Programming Enthusiasts
+A Discord Bot for Servers filled with Programming Enthusiasts and Nerds with a little twist for anime lovers and the contemporary teens who can't live without their memes.
 
 ### Dependencies
 The following packages are required for smooth function of the bot:
@@ -31,8 +31,8 @@ In order to run the bot add your Personalized Bot Token to botconfig.json
 ### Contribution
 
 All contributions are welcome as long as you love tabs over spaces.
-Add new commands to /commands/
-Use the template.js as the strating point for adding new commands
+Use the template.js present in HotBot/commands/ as the strating point for adding new commands.
+Any new commands must be comitted to HotBot/commands/ and follow the instructions commented in template.js
 
 # Cheers!
 
