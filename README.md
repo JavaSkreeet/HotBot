@@ -10,15 +10,15 @@ The following packages are required for smooth function of the bot:
 
 ### Commands
 ```
-!say <message>
-!botinfo
-!serverinfo
-!headpat
-!memes
-!yt play <YT URL>
-!tempmute @memeber <time>
-!kick @member
-!ban @member
+!say <message>              //Replies back with the message
+!botinfo                    //Returns Information about the bot
+!serverinfo                 //Returns information about the server
+!headpat                    //Returns URL of a random image from /r/headpats
+!memes                      //Returns URL of random meme from /r/dankmemes
+!yt play <YT URL>           //Plays the audio from the mentioned Youtube URL
+!tempmute @memeber <time>   //Mute a player for a given period of time
+!kick @member               //kick a member from the server
+!ban @member                //ban a member from the server
 ```
 
 ### Running The Bot
