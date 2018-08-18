@@ -35,7 +35,9 @@ All contributions are welcome as long as you love tabs over spaces.
 Use the template.js present in HotBot/commands/ as the strating point for adding new commands.
 Any new commands must be comitted to HotBot/commands/ and follow the instructions commented in template.js
 
-### Contributors
+### Inspiration
+
+Loosely based on Hotboy=t made by [Fox](https://gitlab.com/Aberrantfox) for [The Programmers Hangout](https://discordapp.com/invite/HR229U) Discord server
 
 Shout Out to [Raylu](https://github.com/raylu) for coming up with the idea for !headpat feature,an eyecandy for all anime lovers.
 Check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the repository where idea of !headpat was born.
