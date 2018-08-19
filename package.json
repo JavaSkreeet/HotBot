@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Javaskreeet",
+  "author": "flowkraD",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.3.2",
