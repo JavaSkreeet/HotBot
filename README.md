@@ -46,6 +46,9 @@ Loosely based on Hotbot made by [Fox](https://gitlab.com/Aberrantfox) for [The P
 Shout Out to [Raylu](https://github.com/raylu) for coming up with the idea for !headpat feature,an eyecandy for all anime lovers.
 Check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the repository where idea of !headpat was born.
 
-# Cheers!
+### Deployment
+Check out the Heroku branch to know more abput deploying with Heroku
+
+### Cheers!
 
 
