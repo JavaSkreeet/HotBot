@@ -8,6 +8,7 @@ The following packages are required for smooth function of the bot:
 * [ms](https://www.npmjs.com/package/ms) - Library to mange time for temporary muting
 * [ytdl-core](https://www.npmjs.com/package/ytdl-core) - Library to load YT music in audio channel
 * [opusscript](https://www.npmjs.com/package/opusscript) - Library to load YT music in audio channel
+* [node-ytsr](https://www.npmjs.com/package/ytsr) - Library to search for video URL based on the name
 
 ### Commands
 ```
