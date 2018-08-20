@@ -18,6 +18,9 @@ The following packages are required for smooth function of the bot:
 !headpat                    //Returns URL of a random image from /r/headpats
 !memes                      //Returns URL of random meme from /r/dankmemes
 !yt play <YT URL>           //Plays the audio from the mentioned Youtube URL
+!yt skip                    //Skips the current playing track
+!yt stop                    //Stops the song
+!yt search <name>           //Gives back an I'm feeling lucky URL for video best linked with the given search query
 !tempmute @memeber <time>   //Mute a player for a given period of time
 !kick @member               //kick a member from the server
 !ban @member                //ban a member from the server
