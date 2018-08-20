@@ -2,6 +2,7 @@ const botconf = require("./botconfig.json");//Consists of the prefix and bot tok
 const Discord = require("discord.js");      //Discord Library
 const fs = require("fs");                   //File System to access the bot commands
 const YTDL = require("ytdl-core");          //To fetch music stream from Youtube
+const ytsr = require("ytsr");               //YTSR is the library that fetches Youtube URL request based on search queries
 
 const bot = new Discord.Client();           //Creating a bot client
 bot.commands = new Discord.Collection();    
@@ -117,7 +118,43 @@ bot.on("message",async message =>{
             if(message.guild.voiceConnection)
                 message.guild.voiceConnection.disconnect();
         }
+        else if(cmds == "search"){
+            let filter;//search result
+            
+            //Checking for existance of sarch query
+            if(!arg){
+                message.channel.send("I can't search nothing. Please specify the search field (^_^)");
+                return;
+            }
+            
+            //Getting URL for the given search query
+            ytsr.getFilters(arg, function(err, filters) {
+                if(err) throw err;
+                
+                //Getting a video
+                filter = filters.get("Type").find(o => o.name === "Video");
+                ytsr.getFilters(filter.ref, function(err, filters) {
+                    if(err) throw err;
+                    //Filtering the content based on length to stop trolls
+                    filter = filters.get("Duration").find(o => o.name.startsWith("Short"));
+                    var options = {
+                        limit: 2,               //2 because 1 is too mainstream
+                        nextpageRef: filter.ref //Getting next page reference
+                    }
+                    
+                    //fetching theURL
+                    ytsr(null, options, function(err, searchResults) {
+                        if(err) throw err;
+                        //Sending the URL to chat
+                        message.channel.send(`${searchResults.items[0].link}`);
+                    });
+                });
+            });
+        }
     }
+    //Due to the seamless integration of Youtube in Discord, just sending the URL will give you the preview 
+    //of the video which you csn click on to view
+    //Thank you Discord
 
     //fetching the required command file from command and passing in the necessary parameters
     let commandf=bot.commands.get(cmd.slice(prefix.length));
