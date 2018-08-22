@@ -1,4 +1,4 @@
-# HotBot
+# MEANBOT
 A Discord Bot for Servers filled with Programming Enthusiasts and Nerds with a little twist for anime lovers and the contemporary teens who can't live without their memes.
 
 ### Dependencies
