@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot",
+  "name": "MeanBot",
   "version": "1.4.1",
   "description": "A Discord Bot",
   "main": "index.js",
