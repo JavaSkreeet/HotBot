@@ -47,7 +47,7 @@ Shout Out to [Raylu](https://github.com/raylu) for coming up with the idea for !
 Check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the repository where idea of !headpat was born.
 
 ### Deployment
-Check out the Heroku branch to know more abput deploying with Heroku
+Check out the Heroku branch to know more about deploying with Heroku
 
 ### Cheers!
 
