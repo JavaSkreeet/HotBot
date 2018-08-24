@@ -9,6 +9,7 @@ The following packages are required for smooth function of the bot:
 * [ytdl-core](https://www.npmjs.com/package/ytdl-core) - Library to load YT music in audio channel
 * [opusscript](https://www.npmjs.com/package/opusscript) - Library to load YT music in audio channel
 * [node-ytsr](https://www.npmjs.com/package/ytsr) - Library to search for video URL based on the name
+* [xkcd](https://www.npmjs.com/package/xkcd) - Library to get you your addictive xkcd comics right into the server
 
 ### Commands
 ```
@@ -24,6 +25,8 @@ The following packages are required for smooth function of the bot:
 !tempmute @memeber <time>   //Mute a player for a given period of time
 !kick @member               //kick a member from the server
 !ban @member                //ban a member from the server
+!xkcd latest                //Lets you read the latest XKCD comic strip
+!xkcd <num>                 //Brings you the specific XKCD comic
 ```
 
 ### Running The Bot
