@@ -47,11 +47,12 @@ Any new commands must be comitted to HotBot/commands/ and follow the instruction
 Loosely based on Hotbot made by [Fox](https://gitlab.com/Aberrantfox) for [The Programmers Hangout](https://discordapp.com/invite/HR229U) Discord server
 
 Shout Out to [Raylu](https://github.com/raylu) for coming up with the idea for !headpat feature,an eyecandy for all anime lovers.
+                message.channel.send("You must be in  a voice channel (^_^)");
 Check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the repository where idea of !headpat was born.
 
 ### Deployment
 We finally settled for [glitch.com](https://glitch.com/) for hosting our bot. Everything works including the !yt command which was previously giving us trouble on Heroku.
-More information on hosting will be put up on glitch branch once it's made.
-Thank you for cooperating with us (^_^)
+For more information, head over to [glitch](https://github.com/flowkraD/MeanBot/tree/glitch) brach to know about deployment
+Also be sure to read the [Document on Glitch hosting](https://anidiotsguide_old.gitbooks.io/discord-js-bot-guide/content/other-guides/hosting-on-glitchcom.html) before jumping in (^_^)
 
 ### Cheers
