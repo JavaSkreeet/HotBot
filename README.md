@@ -50,8 +50,8 @@ Shout Out to [Raylu](https://github.com/raylu) for coming up with the idea for !
 Check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the repository where idea of !headpat was born.
 
 ### Deployment
-We ran into problem with Heroku wherein the dependencies failed to build correctly while hosting the bot. The bot runs fine while running from local machine but doesn't load online with Heroku. Hence Heroku related branches are deleted until a solution or an alternative is found. Thanks for bearing with us (^_^)
+We finally settled for [glitch.com](https://glitch.com/) for hosting our bot. Everything works including the !yt command which was previously giving us trouble on Heroku.
+More information on hosting will be put up on glitch branch once it's made.
+Thank you for cooperating with us (^_^)
 
-### Cheers!
-
-
+### Cheers
