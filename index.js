@@ -1,7 +1,7 @@
 const botconf = require("./botconfig.json");//Consists of the prefix and bot token
 const Discord = require("discord.js");      //Discord Library
 const fs = require("fs");                   //File System to access the bot commands
-const YTDL = require("ytdl-core");          //To fetch music stream from Youtube
+const ytdl = require("ytdl-core");          //To fetch music stream from Youtube
 const ytsr = require("ytsr");               //YTSR is the library that fetches Youtube URL request based on search queries
 
 const bot = new Discord.Client();           //Creating a bot client
@@ -37,13 +37,14 @@ var servers = {};//Server Queue
 function play(connection,message){
     var server = servers[message.guild.id];//finding the right server request
     //Dispaching the audio stream to voice channel
-    server.dispacher = connection.playStream(YTDL(server.queue[0],{filter: "audioonly",quality:"highestaudio"}));
+    server.dispacher = connection.playStream(ytdl(server.queue[0],{filter: "audioonly",quality:"highestaudio"}));
     server.queue.shift();//Removing the current URL
     
     //Checking if there are any more songs to play else end dispaching
     server.dispacher.on("end",function(){
     if(server.queue[0]) play(connection,message);
     else connection.disconnect();
+                message.channel.send("You must be in  a voice channel (^_^)");
     });
 }
 
