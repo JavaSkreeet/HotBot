@@ -25,7 +25,7 @@ The following packages are required for smooth function of the bot:
 !tempmute @memeber <time>   //Mute a player for a given period of time
 !kick @member               //kick a member from the server
 !ban @member                //ban a member from the server
-!xkcd latest                //Lets you read the latest XKCD comic strip
+!xkcd                       //Lets you read the latest XKCD comic strip
 !xkcd <num>                 //Brings you the specific XKCD comic
 ```
 
