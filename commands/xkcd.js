@@ -3,7 +3,7 @@ const xkcd=require("xkcd");             //xkcd extractor
 
 module.exports.run = async (bot,message,args) => {
     //Looking at the needs of the request
-    if(arg=="latest"){
+    if(!arg){
         //Returning the latest one
         xkcd(function (data) {
             return message.channel.send(data.img);
