@@ -45,6 +45,7 @@ function play(connection,message){
     if(server.queue[0]) play(connection,message);
     else connection.disconnect();
                 message.channel.send("You must be in  a voice channel (^_^)");
+            
     });
 }
 
@@ -54,6 +55,13 @@ bot.on("message",async message =>{
     //ignoring bots and DM
     if(message.author.bot)return;
     if(message.channel.type === "dm") return;
+    
+    if(message.content.includes("https://discord.gg/")||message.content.includes("https://discordapp.com/invite/"){
+        message.delete().catch(O_o=>{});//Deleting Spam
+        message.channel.send("You can't put contents like that here without permission");
+        return;
+        
+    }
     
     //taking the message and splitting it as command and parameter
     let prefix = botconf.prefix;
