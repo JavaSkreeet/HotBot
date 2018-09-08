@@ -53,6 +53,6 @@ Check out the [Python Bot](https://github.com/raylu/sbot) by Raylu, the reposito
 ### Deployment
 We finally settled for [glitch.com](https://glitch.com/) for hosting our bot. Everything works including the !yt command which was previously giving us trouble on Heroku.
 For more information, head over to [glitch](https://github.com/flowkraD/MeanBot/tree/glitch) brach to know about deployment
-Also be sure to read this [useful article](https://anidiotsguide_old.gitbooks.io/discord-js-bot-guide/content/other-guides/hosting-on-glitchcom.html) on Glitter hosting before jumping in (^_^)
+Also be sure to read this [useful article](https://anidiotsguide_old.gitbooks.io/discord-js-bot-guide/content/other-guides/hosting-on-glitchcom.html) on Glitch hosting before jumping in (^_^)
 
 ### Cheers
