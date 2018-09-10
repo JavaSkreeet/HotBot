@@ -22,6 +22,7 @@ The following packages are required for smooth function of the bot:
 !yt skip                    //Skips the current playing track
 !yt stop                    //Stops the song
 !yt search <name>           //Gives back an I'm feeling lucky URL for video best linked with the given search query
+!yt splay <name<            //Gives the most relevant video linked to search query <name> from YT
 !tempmute @memeber <time>   //Mute a player for a given period of time
 !kick @member               //kick a member from the server
 !ban @member                //ban a member from the server
